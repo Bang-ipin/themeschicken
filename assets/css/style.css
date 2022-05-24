@@ -114,7 +114,9 @@ body {
 .fixed-me {
   transition: all 1s;
 }
-
+.bg-header {
+    background-color: #a30303;
+}
 .fixed-me {
   /* background-color: #fff !important; */
   padding: 0px !important;
