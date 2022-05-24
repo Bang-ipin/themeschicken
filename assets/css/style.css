@@ -68,9 +68,11 @@ body {
 }
 .btn-jingga {
     font-weight: bold;
-    color: #844040;
+    color: black;
+    /* color: #844040; */
     background-color: #FFC700;
     border-color: #FFC700;
+    text-transform: uppercase;
 }
 .btn-red-velvet {
     font-weight: bold;
