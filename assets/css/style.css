@@ -198,7 +198,7 @@ body {
     width: 500px;
     height: 400px;
 }
-
+    
 /* SECTION SERVICE */
 #service{
     height: 500px;
@@ -370,12 +370,25 @@ body {
 }
 
 /* SECTION ABOUTS */
+#about .cloud img{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    max-width: 100%;
+    top: -150px;
+    position: relative;
+}
+#about .box-marketplace{
+    margin-top: -80px;
+}
 #about .box-marketplace img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -80px;
+    margin-top: -200px;
     width: 50%;
+    z-index: 2;
+    position: relative;
 }
 #about .box-marketplace .title {
     margin-top: 30px;
