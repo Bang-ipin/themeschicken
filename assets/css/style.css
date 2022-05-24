@@ -10,7 +10,7 @@ body {
   background-color: #f3f3f3;
 }
 .page{
-    background-color: #f7f7f7;
+    background-color: #FFFFFF;
 }
 .mt-10{
     margin-top: 10px;
@@ -200,13 +200,13 @@ body {
 
 #hero .figure img{
     width: 500px;
-    height: 400px;
+    height: 350px;
 }
     
 /* SECTION SERVICE */
 #service{
     height: 500px;
-    background-color: #f7f7f7;
+    background-color: #FFFFFF;
 }
 #service .box{
     height: 400px;
@@ -222,6 +222,7 @@ body {
 #service .img-box img{
     width: 150px;
     height: 150px;
+    border-radius: 15px;
 }
 
 #service .box-text{
@@ -391,8 +392,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -200px;
-    width: 50%;
+    margin-top: -350px;
+    width: 75%;
     z-index: 2;
     position: relative;
 }
