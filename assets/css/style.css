@@ -266,18 +266,19 @@ body {
 }
 #features .box-left-features .box .left-box{
    width:30%;
+   margin-left: 10px;
 }
 #features .box-left-features .box .left-box img{
    width:100px;
    height:100px;
    border-radius: 15px;
+   margin-left: 10px;
 }
 #features .box-left-features .box .right-box{
     width:70%;
 }
 #features .box-left-features .box-text{
     position: relative;
-    margin-left: 10px;
 }
 
 #features .box-left-features .box-text .features-heading-title{
