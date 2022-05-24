@@ -264,6 +264,7 @@ body {
 #features .box-left-features .box .left-box img{
    width:100px;
    height:100px;
+   border-radius: 15px;
 }
 #features .box-left-features .box .right-box{
     width:70%;
@@ -320,6 +321,7 @@ body {
  #features .box-right-features .box .left-box img{
     width:100px;
     height:100px;
+    border-radius: 15px;
  }
  #features .box-right-features .box .right-box{
      width:70%;
