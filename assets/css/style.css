@@ -37,16 +37,16 @@ body {
     background-color: #FFFFFF;
 }
 .bg-var-red {
-    background-color: #f14141;
-    background-image: -moz-linear-gradient(top, #f14141, #e61e1e);
+    background-color: #a30303;
+    background-image: -moz-linear-gradient(top, #a30303, #e61e1e);
 
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f14141), to(#e61e1e));
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a30303), to(#e61e1e));
 
-	background-image: -webkit-linear-gradient(top, #f14141, #e61e1e);
+	background-image: -webkit-linear-gradient(top, #a30303, #e61e1e);
 
-	background-image: -o-linear-gradient(top, #f14141, #e61e1e);
+	background-image: -o-linear-gradient(top, #a30303, #e61e1e);
 
-	background-image: linear-gradient(to bottom, #f14141, #e61e1e);
+	background-image: linear-gradient(to bottom, #a30303, #e61e1e);
 
 	background-repeat: repeat-x;
 }
@@ -55,7 +55,7 @@ body {
     background-color: #FFFFFF;
 }
 .var-red {
-    color: #f14141;
+    color: #a30303;
 }
 .var-jingga {
     color: #FFC700;
@@ -69,8 +69,8 @@ body {
 .btn-red-velvet {
     font-weight: bold;
     color: white;
-    background-color: #f14141;
-    border-color: #f14141;
+    background-color: #a30303;
+    border-color: #a30303;
 }
 
 .btn-radius-30{
@@ -154,7 +154,7 @@ body {
 
 .navbar ul li a.active {
     color: #ffcd01;
-    /* color: #f14141; */
+    /* color: #a30303; */
     font-weight: bold;
 }
 
@@ -188,6 +188,10 @@ body {
     text-align: left;
 }
 
+#hero .figure img{
+    width: 500px;
+    height: 400px;
+}
 
 /* SECTION SERVICE */
 #service{
@@ -196,14 +200,13 @@ body {
 }
 #service .box{
     height: 400px;
-    background-color: #f7f7f7;
 }
 
 #service .img-box{
     width: 180px;
     height: 180px;
     margin: 0 25%;
-    /* border: 5px solid #f14141; */
+    /* border: 5px solid #a30303; */
     /* border: 5px solid #14B16F; */
     padding: 30px;
     border-radius:50%;
@@ -214,7 +217,7 @@ body {
 }
 #service .box-text .service-heading-title{
     margin-top: 10px;
-    color: #f14141;
+    color: #a30303;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -257,11 +260,11 @@ body {
 }
 
 #features .box-left-features .box-text .features-heading-title{
-    font-size: 16px;
+    font-size:20px;
     font-weight: 600;
 }
 #features .box-left-features .box-text .features-heading-description{
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 10px;
     font-weight: normal;
     line-height: 20px;
@@ -309,11 +312,11 @@ body {
  }
  
  #features .box-right-features .box-text .features-heading-title{
-     font-size: 16px;
+     font-size: 20px;
      font-weight: 600;
  }
  #features .box-right-features .box-text .features-heading-description{
-     font-size: 12px;
+     font-size: 14px;
      margin-top: 10px;
      font-weight: normal;
      line-height: 20px;
@@ -448,7 +451,7 @@ body {
 
 /* SOSMED */
 #social-media{
-    border-bottom: 1px solid #f14141;
+    border-bottom: 1px solid #a30303;
     box-shadow: 0 4px 2px -2px gray;
 }
 #social-media h1.title-sosmed{
@@ -469,7 +472,7 @@ body {
 }
 #social-media .icon-sosmed ul li svg{
     font-size: 32px;
-    color: #f14141;
+    color: #a30303;
 }
 
 
@@ -492,7 +495,7 @@ body {
 #footer h1.footer-title{
     margin-bottom: 30px;
     font-size: 22px;
-    color: #f14141;
+    color: #a30303;
     font-weight: bold;
 }
 #footer .footer-menu{
@@ -504,7 +507,7 @@ body {
 }
 #footer .footer-menu ul li a{
     text-decoration: none;
-    color: #f14141;
+    color: #a30303;
     font-weight: 500;
     line-height: 25px;
     font-size: 12px;
