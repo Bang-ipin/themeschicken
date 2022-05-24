@@ -1,5 +1,6 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 body {
@@ -36,14 +37,25 @@ body {
     background-color: #FFFFFF;
 }
 .bg-var-red {
-    background-color: #C5331F;
+    background-color: #f14141;
+    background-image: -moz-linear-gradient(top, #f14141, #e61e1e);
+
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f14141), to(#e61e1e));
+
+	background-image: -webkit-linear-gradient(top, #f14141, #e61e1e);
+
+	background-image: -o-linear-gradient(top, #f14141, #e61e1e);
+
+	background-image: linear-gradient(to bottom, #f14141, #e61e1e);
+
+	background-repeat: repeat-x;
 }
 .bg-var-grey {
     /* background-color: #f7f7f7; */
     background-color: #FFFFFF;
 }
 .var-red {
-    color: #C5331F;
+    color: #f14141;
 }
 .var-jingga {
     color: #FFC700;
@@ -57,8 +69,8 @@ body {
 .btn-red-velvet {
     font-weight: bold;
     color: white;
-    background-color: #C5331F;
-    border-color: #C5331F;
+    background-color: #f14141;
+    border-color: #f14141;
 }
 
 .btn-radius-30{
@@ -142,18 +154,20 @@ body {
 
 .navbar ul li a.active {
     color: #ffcd01;
-    /* color: #C5331F; */
+    /* color: #f14141; */
     font-weight: bold;
 }
 
 .navbar ul li a {
     margin-right: 20px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     /* color: #727573; */
     color: #ffffff;;
 }
-
+.navbar ul li a:hover{
+    color:#ffcd01;
+}
 /* HERO */
 #hero{
     height: 600px;
@@ -189,7 +203,7 @@ body {
     width: 180px;
     height: 180px;
     margin: 0 25%;
-    /* border: 5px solid #c5331f; */
+    /* border: 5px solid #f14141; */
     /* border: 5px solid #14B16F; */
     padding: 30px;
     border-radius:50%;
@@ -200,7 +214,7 @@ body {
 }
 #service .box-text .service-heading-title{
     margin-top: 10px;
-    color: #c5331f;
+    color: #f14141;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
@@ -434,7 +448,7 @@ body {
 
 /* SOSMED */
 #social-media{
-    border-bottom: 1px solid #C5331F;
+    border-bottom: 1px solid #f14141;
     box-shadow: 0 4px 2px -2px gray;
 }
 #social-media h1.title-sosmed{
@@ -455,7 +469,7 @@ body {
 }
 #social-media .icon-sosmed ul li svg{
     font-size: 32px;
-    color: #C5331F;
+    color: #f14141;
 }
 
 
@@ -478,7 +492,7 @@ body {
 #footer h1.footer-title{
     margin-bottom: 30px;
     font-size: 22px;
-    color: #C5331F;
+    color: #f14141;
     font-weight: bold;
 }
 #footer .footer-menu{
@@ -490,7 +504,7 @@ body {
 }
 #footer .footer-menu ul li a{
     text-decoration: none;
-    color: #C5331F;
+    color: #f14141;
     font-weight: 500;
     line-height: 25px;
     font-size: 12px;
