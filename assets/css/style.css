@@ -42,6 +42,9 @@ body {
 .bg-var-white {
     background-color: #FFFFFF;
 }
+.bg-var-jingga {
+    background-color: #FFCD01;
+}
 .bg-var-red {
     background-color: #a30303;
     background-image: -moz-linear-gradient(top, #a30303, #e61e1e);
