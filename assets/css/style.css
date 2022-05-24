@@ -27,6 +27,12 @@ body {
 .mt-100{
     margin-top: 100px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
 .mb-80{
     margin-bottom: 80px;
 }
@@ -403,6 +409,23 @@ body {
 #cta .box-text{
     padding: 0 20px;
 }
+#cta .icon-sosmed{
+    padding: 0 20px;
+}
+#cta .icon-sosmed ul{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px !important;
+}
+#cta .icon-sosmed ul li{
+    margin-right: 30px;
+}
+#cta .icon-sosmed ul li svg{
+    font-size: 30px;
+    color: #FFFFFF;
+}
 #cta .box-text .about-heading-title{
     color: #FFC701;
     font-size: 40px;
@@ -413,7 +436,6 @@ body {
 #cta .box-text .about-heading-description{
     font-size: 20px;
     font-weight: 600;
-    height:60px;
     color: white;
 }
 
@@ -425,6 +447,7 @@ body {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
+    
 }
 
 .product-box ul li {
@@ -491,20 +514,7 @@ body {
     font-weight: 700;
     font-size: 14px;
 }
-#footer .icon-sosmed ul{
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
-    list-style: none;
-    padding-left: 0px !important;
-}
-#footer .icon-sosmed ul li{
-    margin-right: 10px;
-}
-#footer .icon-sosmed ul li svg{
-    font-size: 30px;
-    color: #a30303;
-}
+
 #footer h1.footer-title{
     margin-bottom: 30px;
     font-size: 22px;
