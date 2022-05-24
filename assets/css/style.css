@@ -241,7 +241,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     height:60px;
-    color: #515452;
+    color: black;
 }
 
 /* SECTION FITUR */
@@ -362,7 +362,7 @@ body {
 #marketplace .box-marketplace .description p{
     font-size: 16px;
     font-weight: 500;
-    color: #515452;
+    color: black;
     text-transform: capitalize;
     margin-top: 30px;
     text-align: left;
@@ -412,7 +412,7 @@ body {
 #about .box-marketplace .description p{
     font-size: 16px;
     font-weight: 500;
-    color: #515452;
+    color: black;
     text-transform: capitalize;
     margin-top: 30px;
 }
@@ -537,7 +537,7 @@ body {
     padding: 20px;
 }
 #footer .box-text .footer-description{
-    color: #515452;
+    color: black;
     font-size: 12px;
 }
 #footer .box-text .address{
