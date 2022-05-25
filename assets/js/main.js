@@ -8,7 +8,9 @@
             $(".navbar-me").removeClass("fixed-me");
         }
     });
-
+    document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+        document.querySelector('.offcanvas-collapse').classList.toggle('open')
+    })
     const select = (el, all = false) => {
         el = el.trim()
         if (all) {
@@ -127,7 +129,7 @@
         }
     });
 
-    const menu = document.querySelector(".nav");
+    const menu = document.querySelector(".navbar-nav");
     menu.addEventListener('click', function(e) {
         const targetMenu = e.target;
         if(targetMenu.classList.contains('nav-link')) {

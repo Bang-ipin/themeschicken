@@ -15,28 +15,30 @@
 
     <body style="background-color:#F7F7F7;">
         <div class="page">
-            <nav class="py-2 navbar navbar-expand-lg bg-header navbar-me" aria-label="Eleventh navbar example">
+            <nav class="py-2 navbar navbar-expand-lg bg-header navbar-me" aria-label="Main navigation">
                 <div class="container d-flex flex-wrap">
                     <a class="navbar-brand" href="#">
                         <img src="assets/image/logo.png" alt="" width="200" height="52">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarsExample09"></div>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Beranda</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link link-dark px-2">Tentang Kami</a></li>
-                        <li class="nav-item"><a href="#service" class="nav-link link-dark px-2">Layanan</a></li>
-                        <li class="nav-item"><a href="#features" class="nav-link link-dark px-2">Fitur</a></li>
-                        <li class="nav-item"><a href="#marketplace" class="nav-link link-dark px-2">Produk</a></li>
-                        <li class="nav-item"><a href="#cta" class="nav-link link-dark px-2">Kontak</a></li>
-                    </ul>
+                    <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Beranda</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">Tentang Kami</a></li>
+                            <li class="nav-item"><a href="#service" class="nav-link">Layanan</a></li>
+                            <li class="nav-item"><a href="#features" class="nav-link">Fitur</a></li>
+                            <li class="nav-item"><a href="#marketplace" class="nav-link">Produk</a></li>
+                            <li class="nav-item"><a href="#cta" class="nav-link">Kontak</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+                
             <section id="hero" class="bg-var-red">
                 <div class="p-4 p-md-5 mb-4 text-white rounded">
-                    <div class="container">
+                    <div class="container mb-100">
                         <div class="row">
                             <div class="col-md-6 px-0">
                                 <figure class="figure">
@@ -48,7 +50,7 @@
                                 <div class="heroes-description">
                                     <p>Hai bu, sekarang kamu tidak perlu repot-repot lagi ke pasar loh kalau mau beli daging ayam. Sewu Ayam saat ini sudah berinovasi untuk lebih dekat ke konsumen kok. Cukup pilih produk yang ibu mau nanti pesanan akan dikirim ke alamat ibu.</p>
                                 </div>
-                                <a href="#" class="btn btn-jingga btn-lg mt-20" role="button">Coba Sekarang Yuuk</a>
+                                <a href="#" class="btn btn-jingga button-header btn-lg mt-20" role="button">Coba Sekarang Yuuk</a>
                             </div>
                         </div>                           
                     </div>
@@ -79,8 +81,8 @@
             </section>
             <section id="service" class="bg-var-white">
                 <div class="container">
-                    <div class="row mt-100 text-center">
-                        <div class="col-lg-4 box">
+                    <div class="row text-center">
+                        <div class="col-lg-4 col-md-4 col-sm-12 box">
                             <div class="img-box">
                                 <img src="assets/image/service1.png" alt="image1" />
                             </div>
@@ -89,7 +91,7 @@
                                 <p class="service-heading-description">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 box">
+                        <div class="col-lg-4 col-md-4 col-sm-12 box">
                             <div class="img-box">
                                 <img src="assets/image/service2.png" alt="image1" />
                             </div>
@@ -98,7 +100,7 @@
                                 <p class="service-heading-description">Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 box">
+                        <div class="col-lg-4 col-md-4 col-sm-12 box">
                             <div class="img-box">
                                 <img src="assets/image/service3.png" alt="image1" />
                             </div>
@@ -113,7 +115,7 @@
             <section id="features" class="bg-var-red">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="box-left-features mt-100">
                                 <div class="box">
                                     <div class="right-box">
@@ -139,14 +141,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="box-center-features mb-80">
                                 <div class="box">
                                     <img src="assets/image/layer-image-1.png" alt="image1" />
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="box-right-features mt-100">
                                 <div class="box">
                                     <div class="left-box">
@@ -290,7 +292,7 @@
             <footer id="footer" class="bg-var-white">
                 <div class="container">
                     <div class="row mb-100">
-                        <div class="col-md-4 mt-60">
+                        <div class="col-md-4 col-sm-6 mt-60">
                             <div class="box-text">
                                 <a class="navbar-brand" href="#">
                                     <img src="assets/image/logo.png" alt="" width="300px" height="80">
@@ -300,7 +302,7 @@
                                
                             </div>
                         </div>
-                        <div class="col-md-4 mt-60 text-left">
+                        <div class="col-md-4 col-sm-6  mt-60 text-left">
                             <div class="row">
                                 <div class="col">
                                     <div class="footer-menu mt-30">
@@ -328,7 +330,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mt-60">
+                        <div class="col-md-4 col-sm-12  mt-60">
                             <div class="footer-menu mt-30">
                                 <h1 class="footer-title text-center">Pembayaran</h1>
                             </div>
